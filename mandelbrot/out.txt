@@ -1,0 +1,9 @@
+&16
+stbi.Image{
+    width: 0
+    height: 0
+    nr_channels: 0
+    ok: false
+    data: 0
+    ext: ''
+}

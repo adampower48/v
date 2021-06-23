@@ -1,0 +1,2 @@
+set VFLAGS=-cc msvc
+v -g  . -o ui

@@ -1,0 +1,27 @@
+.\hello_world.v:8:6: warning: unused variable: `j`
+    6 |     mut i := 0
+    7 |     
+    8 |     for j in 0 .. 10 {
+      |         ^
+    9 |         print("$i ")
+   10 |         i += 1
+.\hello_world.v:16:2: warning: unused variable: `x`
+   14 | 
+   15 | fn unused(){
+   16 |     x := 5
+      |     ^
+   17 | }
+   18 |
+[.\\hello_world.v:76] objects: [Geo(Point{
+    x: 0
+    y: 1
+}), Geo(Line{
+    p0: Point{
+        x: 0
+        y: 1
+    }
+    p1: Point{
+        x: 3
+        y: 4
+    }
+})]
